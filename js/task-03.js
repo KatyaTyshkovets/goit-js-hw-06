@@ -22,7 +22,7 @@ galleryEl.setAttribute(
   "style",
   "list-style-type:none; display: flex; justify-content: space-between;"
 );
-console.log(galleryEl);
+
 
 
 

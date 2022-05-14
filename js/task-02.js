@@ -9,13 +9,16 @@ const ingredients = [
 
 const ulRef = document.querySelector("#ingredients");
 
-const ingredientsRef = ingredients.forEach(ingredient => {
+const createUlElements = (ingredient) =>
+{
   const list = document.createElement("li");
   list.textContent = ingredient;
   list.classList.add("item");
   ulRef.append(list);
-});
+}
 
+
+ingredients.forEach((ingredient) => createUlElements(ingredient));
 
 
 
